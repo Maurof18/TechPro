@@ -14,10 +14,17 @@
     --grisClaro:#e1e1e1;
 
     --separacion: 5rem;
+    /** Fuentes */
+    --delgada: 300;
+    --regular:400;
+    --bold:700;
+    --black:900;
 
+
+    
 }
 
-/* Configuracion (REM)*/
+ /** Reset para Utilizar REM y Box Sizing */
 html{/* recomdable ponerlo siempre */
     box-sizing: border-box;
     font-size: 62.5%; /*1Rem = 10px*/
@@ -30,3 +37,31 @@ body{
     font-size: 1.6rem;
     line-height: 2;
 }
+
+/**Globaales*/
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin:  0 auto;
+}
+
+h1,h2,h3{
+    font-weight: var(--black);
+    font-family: var(--fuenteSecundaria);
+    margin:calc(var(--separacion)/2) 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
