@@ -17,3 +17,16 @@
 
 }
 
+/* Configuracion (REM)*/
+html{/* recomdable ponerlo siempre */
+    box-sizing: border-box;
+    font-size: 62.5%; /*1Rem = 10px*/
+}
+*, *:before, *:after{/* recomdable ponerlo siempre */
+    box-sizing: inherit;
+}
+body{
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 2;
+}
