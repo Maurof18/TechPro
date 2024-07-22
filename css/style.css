@@ -119,3 +119,33 @@ img{
         line-height: 1;
     }
 }
+/*Seccion Iconos*/
+.contenedor-iconos{
+    padding: var(--separacion) 0;
+  }
+  .icono{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: calc(var(--separacion) / 2);
+  }
+  .icono:last-of-type{
+      margin: 0;
+      
+  }
+  .icono img{
+      width: 5rem;
+      margin: 0 auto;
+  }
+  .icono h3{
+      color: var(--primario);
+      text-transform: uppercase;
+      margin-top: calc(var(--separacion) / 2);
+  }
+  
+  @media(min-width: 768px){
+      .contenedor-iconos{
+          display: flex;
+          gap: 2rem;
+      }
+  }
