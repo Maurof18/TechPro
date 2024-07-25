@@ -152,11 +152,38 @@ img{
 
   /**Sobre Tech*/
 .sobre-tech{
-    background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%),url(../img/imagen-mujer.jpg);
     background-position: right;
     background-repeat: repeat, no-repeat;
     background-size: 100%, 110rem;
 }
+/**Carga de Imagenes segun soporte el navegador */
+.notavif .notwebp .sobre-tech{
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%),url(../img/imagen-mujer.jpg);
+}
+.avif .sobre-tech{
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%),url(../img/imagen-mujer.avif);
+}
+.webp .sobre-tech{
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%),url(../img/imagen-mujer.webp);
+}
+
+@media(min-width:768px){
+    .sobre-tech{
+        background-repeat: repeat, no-repeat;
+    }
+    .notavif .notwebp .sobre-tech{
+        background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%),url(../img/imagen-mujer.jpg);
+    }
+    .avif .sobre-tech{
+        background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%),url(../img/imagen-mujer.avif);
+    }
+    .webp .sobre-tech{
+        background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%),url(../img/imagen-mujer.webp);
+    }
+}
+
+
+
 .sobre-tech-grid{
     display: grid;
     grid-template-rows: repeat(2, 40rem);
@@ -330,3 +357,4 @@ img{
     color: var(--primario);
     padding: 3rem 0;
 }
+
