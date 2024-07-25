@@ -221,7 +221,14 @@ img{
     background-repeat: no-repeat;
     background-position: 90% center;
     background-size: 15rem;
+    transition-property: transform;
+    transition-duration: .3s;
 }
+
+.modelo:hover{
+    transform: scale(1.1);
+}
+
 .modelo:first-of-type{
     margin-bottom: 0;
 }
@@ -269,3 +276,4 @@ img{
         margin-bottom: 0;
     }
 }
+
