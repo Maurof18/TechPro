@@ -156,7 +156,7 @@ img{
     background-repeat: repeat, no-repeat;
     background-size: 100%, 110rem;
 }
-/**Carga de Imagenes segun soporte el navegador */
+/**Carga de Imagenes segun soporte el navegador que elijas */
 .notavif.notwebp .sobre-tech{
     background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%),url(../img/imagen-mujer.jpg);
 }
@@ -181,7 +181,7 @@ img{
         background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%),url(../img/imagen-mujer.webp);
     }
 }
-
+ 
 .sobre-tech-grid{
     display: grid;
     grid-template-rows: repeat(2, 40rem);
