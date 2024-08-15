@@ -157,7 +157,7 @@ img{
     background-size: 100%, 110rem;
 }
 /**Carga de Imagenes segun soporte el navegador que elijas */
-.notavif.notwebp .sobre-tech{
+.notavif .notwebp .sobre-tech{
     background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%),url(../img/imagen-mujer.jpg);
 }
 .avif .sobre-tech{
