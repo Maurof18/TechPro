@@ -1,5 +1,5 @@
 # TechPro
-Descripción de Auriculares TechPro
+
 Este repositorio contiene una página web dedicada a la descripción de los Auriculares TechPro. La web fue desarrollada utilizando HTML y CSS, y es completamente responsive, adaptándose a diferentes tamaños de pantalla. Este proyecto forma parte de una práctica básica en el desarrollo web, aplicando los conceptos aprendidos sobre diseño web y responsividad.
 
 Tecnologías Utilizadas:
